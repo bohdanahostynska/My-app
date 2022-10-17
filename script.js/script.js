@@ -7,4 +7,7 @@ $ ('.question__list > div') .on ('click',function(){
     $(this).next('.question__text').slideToggle(300);
 })
 
+// $ ('.freeplan__ticks > .fake') .on ('click',function(){
+//     $(this).children('.fake').toggleClass('fake-img::before,fake-img::after');
+// })
 
