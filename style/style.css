@@ -1914,14 +1914,15 @@ span {
 
     .payment {
         background-image: none;
-        padding-right: 30px;
+        padding-left: 0;
+        background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
+        border-radius: 250px 0px 0px 0px;
     }
 
 
     .payment__content {
         display: flex;
         flex-direction: column-reverse;
-        margin: 0 auto;
         max-width: 750px;
     }
 
@@ -1939,6 +1940,10 @@ span {
         align-items: center;
         text-align: center;
         margin-bottom: 50px;
+    }
+
+    .payment__image{
+        width: 100%;
     }
 
     .payment__text {
@@ -2058,7 +2063,7 @@ span {
 
     .payment {
         background-image: none;
-
+        padding-left: 0;
         background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
         border-radius: 250px 0px 0px 0px;
     }
@@ -2241,7 +2246,9 @@ span {
         grid-template-rows: repeat(2, 1fr);
     }
 
-
+    .payment{
+        padding-left: 0;
+    }
 
 }
 
@@ -2432,6 +2439,10 @@ span {
 
     }
 
+    .payment{
+        padding-left: 0;
+    }
+
     .button-right {
         margin: 0 auto;
         margin-left: 70px;
@@ -2550,7 +2561,9 @@ span {
     }
 
 
-
+    .payment{
+        padding-left: 0;
+    }
     .freeplan__button {
         margin: 0 auto;
         margin-left: 30px;
@@ -2572,7 +2585,9 @@ span {
         margin: 0 auto;
         max-width: 300px;
     }
-
+    .payment{
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -2779,7 +2794,7 @@ span {
     .payment {
         padding: 10px 20px;
         background-image: none;
-
+        padding-left: 0;
         background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
         border-radius: 250px 0px 0px 0px;
     }
