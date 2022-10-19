@@ -18,6 +18,12 @@ body {
 
 }
 
+.header__all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .header__content {
     margin: 0 auto;
     max-width: 1140px;
@@ -29,11 +35,12 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
 }
 
-.header .flex {
-    justify-content: space-around;
+.header.flex {
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -85,6 +92,7 @@ body {
 .header__ul {
     display: flex;
     flex-direction: row;
+    margin-right: 200px;
 }
 
 
@@ -938,8 +946,9 @@ body {
 
 
 
-.feedback__details {
+.feedback__details{
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .feedback__photo {
@@ -1911,7 +1920,10 @@ span {
     .feedback__title {
         margin-top: 30px;
     }
-
+    .feedback__details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .payment {
         background-image: none;
         padding-left: 0;
@@ -2044,7 +2056,10 @@ span {
         max-width: 500px;
         margin: 0 auto;
     }
-
+    .feedback__details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .features .subtitle {
         margin-bottom: 30px;
     }
@@ -2202,7 +2217,10 @@ span {
         margin-top: 10px;
     }
 
-
+    .feedback__details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .question {
         padding: 80px 70px 20px;
     }
@@ -2417,7 +2435,10 @@ span {
         max-width: 310px;
     }
 
-
+    .feedback__details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .payment__image {
         width: 100%;
         margin-bottom: 40px;
@@ -2768,11 +2789,19 @@ span {
         padding: 40px 40px;
     }
 
+    .feedback__details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
     .feedback__items {
         max-width: 290px;
         padding: 5px 10px;
     }
-
+    .feedback__info{
+        display: flex;
+        align-items: flex-start;
+    }
     .feedback__subtitle {
         max-width: 290px;
         font-weight: 700;
