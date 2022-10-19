@@ -35,5 +35,5 @@ $('#freeplan_link').on('click',function(e){
     e.preventDefault();
     document.getElementById('toggleCheckbox').checked=false
     $('body').css({'overflow':"visible"})
-    $('html, body').animate({scrollTop: $('#freeplan').offset().top},4000)
+    $('html, body').animate({scrollTop: $('#freeplan').offset().top})
 })

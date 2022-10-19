@@ -1947,6 +1947,7 @@ span {
         margin: 0 auto;
         max-width: 600px;
         margin-left: 0;
+        text-align: start;
     }
 
     .question__pretext {
@@ -2226,6 +2227,11 @@ span {
       
 
     }
+
+    .freeplan__button{
+        max-width: 430px;
+        margin: 0 auto;
+    }
   
     .question {
         padding: 80px 70px 20px;
@@ -2251,6 +2257,14 @@ span {
         margin-left: 10px;
     }
 
+    .freeplan__main{
+        text-align: start;
+
+    }
+    .freeplan__button{
+        margin-left: 0;
+    } 
+
     .footer {
         padding: 80px 100px 120px;
     }
@@ -2270,9 +2284,7 @@ span {
         grid-template-rows: repeat(2, 1fr);
     }
 
-    .payment{
-        padding-left: 0;
-    }
+
 
     #up{
         right:50px;
