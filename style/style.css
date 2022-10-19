@@ -6,7 +6,6 @@ body {
     box-sizing: border-box;
 }
 .header {
-    padding: 28px 100px 206px;
     background-color: #1E3C72;
     background-image: url(..//img/header/pattern.png);
     border-radius: none;
@@ -54,7 +53,7 @@ body {
 .logo {
     display: flex;
     flex-direction: row;
-    max-width: 130px;
+    margin-top: 20px;
 }
 
 .logo__crown {
@@ -1588,7 +1587,7 @@ span {
     font-weight: bold;
     bottom: 100px;
     right: 50px;
-    background-color: #c46552;
+    background-color: #33150f;
     border-radius: 50%;
     text-align: center;
     justify-content: center;

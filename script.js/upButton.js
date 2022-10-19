@@ -35,5 +35,5 @@ $('#features_link').on('click',function(e){
     e.preventDefault();
     document.getElementById('toggleCheckbox').checked=false
     $('body').css({'overflow':"visible"})
-    $('html, body').animate({scrollTop:$('#features').offset().top})
+    $('html, body').animate({scrollTop: $('#features').offset().top})
 })
