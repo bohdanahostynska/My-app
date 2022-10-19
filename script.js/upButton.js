@@ -31,9 +31,9 @@ $('#up').on('click',function(){
     $('html,body').animate({scrollTop:0},500)
 })
 
-$('#features_link').on('click',function(e){
+$('#freeplan_link').on('click',function(e){
     e.preventDefault();
     document.getElementById('toggleCheckbox').checked=false
     $('body').css({'overflow':"visible"})
-    $('html, body').animate({scrollTop: $('#features').offset().top})
+    $('html, body').animate({scrollTop: $('#freeplan').offset().top},4000)
 })

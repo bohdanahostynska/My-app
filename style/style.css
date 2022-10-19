@@ -1581,18 +1581,18 @@ span {
 #up {
     display:block;
     position: fixed;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     font-size: 22px;
     font-weight: bold;
     bottom: 100px;
     right: 50px;
-    background-color: #33150f;
+    background-color:rgb(86, 86, 188,0.3);
     border-radius: 50%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+    color:black;
     cursor: pointer;
 }
 
@@ -1601,7 +1601,7 @@ span {
     top: 50%;
     left: 50%;
     display: inline-block;
-    transform: rotate(-90deg) translate(50%, -25%);
+    transform: rotate(-90deg) translate(100%, -15%);
 
 }
 
