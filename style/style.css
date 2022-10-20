@@ -19,7 +19,7 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1140px;
- 
+
 }
 
 
@@ -32,7 +32,7 @@ body {
 
 .flex {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
@@ -43,7 +43,7 @@ body {
     justify-content: space-around;
 }
 
-.header__lists{
+.header__lists {
     display: flex;
     justify-content: space-around;
 }
@@ -52,7 +52,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin:20px 50px 0 0;
+    margin: 20px 50px 0 0;
 
 }
 
@@ -78,7 +78,7 @@ body {
     color: #FFFFFF;
     background-color: transparent;
     margin-right: 50px;
-}  
+}
 
 .button_one:hover {
     background-color: #4f699a;
@@ -152,7 +152,7 @@ body {
 
 .main {
     position: relative;
-    padding: 28px 100px 206px;
+    padding: 28px 0 206px;
     background-color: #1E3C72;
     background-image: url(..//img/header/pattern.png);
     max-width: 100%;
@@ -1018,7 +1018,7 @@ body {
 
 
 .payment {
-    padding: 30px 80px 50x;
+    padding: 30px 0 50px;
     width: 100%;
     background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
     border-radius: 250px 0px 0px 0px;
@@ -1785,7 +1785,7 @@ span:hover {
     }
 
     .header {
-        padding: 28px 110px 206px;
+        padding: 28px 0 106px;
 
     }
 
@@ -1845,6 +1845,11 @@ span:hover {
         max-width: 750px;
     }
 
+    .header__container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
 
     .header_checkbox:checked~.header__all {
         display: block;
@@ -1872,27 +1877,21 @@ span:hover {
         z-index: 10;
     }
 
-    /* .header__content {
-        display: flex;
-        flex-direction: row;
-    } */
-
     .logo {
         display: flex;
         flex-direction: column;
     }
 
-    .main {
-        padding: 50px 60px;
-        border-bottom-right-radius: 0;
-    }
+
 
 
     .main {
-        padding: 20px 80px;
+        padding: 20px 0 400px;
         background-color: #1E3C72;
         background-image: url(..//img/header/pattern.png);
         max-width: 100%;
+        border-bottom-right-radius: 0;
+        position: relative;
     }
 
     .main__content {
@@ -1906,13 +1905,7 @@ span:hover {
         max-width: 750px;
     }
 
-    .main__phone {
-        position: static;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-    }
 
     .main_img {
         display: none;
@@ -1925,7 +1918,7 @@ span:hover {
         font-size: 65px;
         line-height: 80px;
     }
-    
+
 
     .main video {
 
@@ -1952,12 +1945,21 @@ span:hover {
 
     }
 
+    .main__phone {
+        position: absolute;
+        display: block;
+        top: 65%;
+        left: 35%;
+        max-width: 450px;
+    }
+
+
     .main__left {
         margin-bottom: 40px;
     }
 
     .quality {
-        padding: 80px 120px;
+        padding: 80px 0;
     }
 
     .quality__grid {
@@ -1980,7 +1982,12 @@ span:hover {
     }
 
     .features {
-        padding: 80px 100px 120px;
+        padding: 80px 0 120px;
+    }
+
+    .features__content {
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .features-grid {
@@ -1991,13 +1998,15 @@ span:hover {
     }
 
     .jackpots {
-        padding: 60px 80px;
+        padding: 60px 0;
     }
 
     .jackpots__content {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        max-width: 750px;
+        margin: 0 auto;
 
     }
 
@@ -2034,18 +2043,19 @@ span:hover {
     }
 
 
-
     .features__top {
         margin-bottom: 100px;
     }
 
     .core {
-        padding: 80px 100px 120px;
+        padding: 80px 0 120px;
     }
 
     .core__content {
         display: flex;
         flex-direction: column-reverse;
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .core__left {
@@ -2074,7 +2084,12 @@ span:hover {
 
 
     .function {
-        padding: 80px 120px 100px;
+        padding: 80px 0 100px;
+    }
+
+    .function__content {
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .function__title {
@@ -2092,7 +2107,12 @@ span:hover {
     }
 
     .feedback {
-        padding: 80px 100px 120px;
+        padding: 80px 0 120px;
+    }
+
+    .feedback__content {
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .feedback__title {
@@ -2106,7 +2126,7 @@ span:hover {
 
     .payment {
         background-image: none;
-        padding: 50px 60px;
+        padding: 50px 0;
         background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
         border-radius: 250px 0px 0px 0px;
     }
@@ -2120,6 +2140,7 @@ span:hover {
         flex-direction: column-reverse;
         max-width: 750px;
         margin-left: none;
+        margin: 0 auto;
     }
 
     .payment__right {
@@ -2156,7 +2177,12 @@ span:hover {
     }
 
     .freeplan {
-        padding: 80px 100px 120px;
+        padding: 80px 0;
+    }
+
+    .freeplan__content {
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .freeplan__main {
@@ -2174,6 +2200,11 @@ span:hover {
         text-align: start;
     }
 
+    .quality__content {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
     .question__pretext {
         max-width: 511px;
     }
@@ -2184,12 +2215,13 @@ span:hover {
     }
 
     .footer {
-        padding: 80px 100px 120px;
+        padding: 80px 0;
     }
 
     .footer__content {
         text-align: center;
-
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .footer__ul {
@@ -2208,8 +2240,12 @@ span:hover {
         max-width: 500px;
     }
 
+    .title {
+        max-width: 500px;
+    }
+
     .header {
-        padding: 40px 50px;
+        padding: 40px 0;
     }
 
     .header__container {
@@ -2229,16 +2265,29 @@ span:hover {
         justify-content: space-around;
     }
 
-    .header__ul{
+    .header__ul {
         margin-left: 300px;
     }
 
-    .main__phone {
-        position: static;
-        display: inline-block;
-        width: 100%;
-        margin-left: 50px;
+    .main {
+        position: relative;
+        padding: 20px 0 300px;
     }
+
+    .main__content {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .main__phone {
+        position: absolute;
+        display: block;
+        width: 100%;
+        top: 65%;
+        left: 25%;
+        width: 400px;
+    }
+
 
     .main video {
         position: relative;
@@ -2256,6 +2305,11 @@ span:hover {
         z-index: 3;
     }
 
+    .quality__content {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
     .quality .subtitle {
         margin-bottom: 30px;
     }
@@ -2270,8 +2324,30 @@ span:hover {
         justify-content: space-around;
     }
 
+    .features__content {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
     .features .subtitle {
         margin-bottom: 30px;
+    }
+
+    .features__top {
+        max-width: 500px;
+    }
+
+    .freeplan__checklist {
+        width: 250px;
+    }
+
+    .freeplan__checkbox {
+        max-width: 250px;
+    }
+
+    .core__content {
+        max-width: 500px;
+        margin: 0 auto;
     }
 
     .core__image {
@@ -2283,13 +2359,23 @@ span:hover {
     }
 
     .question__pretext {
-        max-width: 511px;
+        max-width: 500px;
+    }
+
+    .function__content {
+        max-width: 500px;
+        margin: 0 auto;
     }
 
     .payment {
-        padding: 40px 60px;
+        padding: 40px;
         background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
         border-radius: 250px 0px 0px 0px;
+    }
+
+    .payment__content {
+        margin: 0 auto;
+        max-width: 500px;
     }
 
     .payment__right {
@@ -2314,6 +2400,27 @@ span:hover {
         height: 400px;
     }
 
+    .features__content {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .question__content {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .freeplan__container,
+    .freeplan__content {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .footer__content {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
 
     #up {
         display: none;
@@ -2329,7 +2436,7 @@ span:hover {
         max-width: 430px;
     }
 
-    .header__content {
+    .header__container {
         margin: 0 auto;
         max-width: 430px;
     }
@@ -2356,12 +2463,14 @@ span:hover {
     }
 
     .main {
-        padding: 30px 30px;
+        padding: 30px 0 350px;
+        position: relative;
     }
 
     .main__content {
         margin: 0 auto;
         max-width: 430px;
+
     }
 
     .main__title {
@@ -2389,20 +2498,26 @@ span:hover {
     }
 
     .main__phone {
-        position: static;
-        display: inline-block;
-        width: 100%;
-        margin-left: 50px;
+        position: absolute;
+        display: block;
+        top: 65%;
+        left: 20%;
+        max-width: 350px;
     }
+
 
     .main__left {
         max-width: 430px;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
-    .main__socials {
-        margin: 0 auto;
-        max-width: 430px;
+    .socials-grid {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
 
     }
 
@@ -2417,7 +2532,7 @@ span:hover {
     }
 
     .quality {
-        padding: 80px 50px 20px;
+        padding: 80px 0 20px;
     }
 
     .quality__content {
@@ -2438,20 +2553,28 @@ span:hover {
         display: inline-block;
     }
 
-    .features {
-        padding: 80px 80px 20px;
-    }
-
-    .features__bottom {
-        max-width: 400px;
+    .jackpots__content {
+        max-width: 430px;
         margin: 0 auto;
     }
+
+    .features {
+        padding: 80px 0 20px;
+    }
+
+
 
     .features__list {
         display: flex;
         flex-direction: column;
 
 
+    }
+
+
+    .core__content {
+        max-width: 430px;
+        margin: 0 auto;
     }
 
     .core__image {
@@ -2470,7 +2593,7 @@ span:hover {
     }
 
     .function {
-        padding: 80px 30px 20px;
+        padding: 80px 0 80px;
     }
 
     .function__content {
@@ -2488,14 +2611,13 @@ span:hover {
 
     .function__subtitle {
         margin: 0 auto;
-        margin: 0 auto;
     }
 
     .function__grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 20px
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
     }
 
     .function__items {
@@ -2522,7 +2644,7 @@ span:hover {
     }
 
     .payment {
-        padding: 50px 50px;
+        padding: 50px 0;
         background-image: none;
         padding-left: 20px;
     }
@@ -2546,16 +2668,32 @@ span:hover {
 
     }
 
-    .freeplan__button {
+    .feedback__content {
         max-width: 430px;
         margin: 0 auto;
     }
 
-    .question {
-        padding: 80px 70px 20px;
+    .freeplan__button {
+        max-width: 170px;
+        margin: 0 auto;
     }
 
+    .freeplan__checklist {
+        width: 230px;
+    }
 
+    .freeplan__checkbox {
+        max-width: 250px;
+    }
+
+    .question {
+        padding: 80px 0 20px;
+    }
+
+    .question__content {
+        max-width: 430px;
+        margin: 0 auto;
+    }
 
     .question__title {
         margin-top: 40px;
@@ -2572,6 +2710,11 @@ span:hover {
         margin-left: 10px;
     }
 
+    .freeplan__content {
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
     .freeplan__main {
         text-align: start;
 
@@ -2581,12 +2724,16 @@ span:hover {
         margin-left: 0;
     }
 
+
+
     .footer {
-        padding: 80px 100px 120px;
+        padding: 80px 0 120px;
     }
 
     .footer__content {
         text-align: center;
+        max-width: 430px;
+        margin: 0 auto;
 
     }
 
@@ -2615,13 +2762,13 @@ span:hover {
 
 
     .header {
-        padding: 70px 40px;
+        padding: 70px 0;
         position: relative;
     }
 
-    .header__content {
+    .header__container {
         margin: 0 auto;
-        max-width: 290px;
+        max-width: 310px;
     }
 
 
@@ -2644,6 +2791,11 @@ span:hover {
         max-width: 310px;
     }
 
+    .main {
+        padding: 40px 0 400px;
+        position: relative;
+    }
+
     .main__title {
         font-size: 36px;
         line-height: 48px;
@@ -2662,12 +2814,16 @@ span:hover {
         z-index: 3;
     }
 
+
     .main__phone {
-        position: static;
-        display: inline-block;
-        width: 100%;
-        margin-left: 50px;
+        position: absolute;
+        display: block;
+        max-width: 100%;
+        top: 65%;
+        left: 20%;
+        width: 290px;
     }
+
 
     .main__left {
         max-width: 310px;
@@ -2700,8 +2856,13 @@ span:hover {
 
     }
 
+    .jackpots__content {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
     .quality {
-        padding: 80px 50px 20px;
+        padding: 80px 0 20px;
     }
 
 
@@ -2721,10 +2882,14 @@ span:hover {
     }
 
     .features {
-        padding: 80px 80px 20px;
+        padding: 80px 0 20px;
     }
 
+    .features__content {
+        margin: 0 auto;
+        max-width: 310px;
 
+    }
 
     .core__content {
         max-width: 310px;
@@ -2747,7 +2912,7 @@ span:hover {
     }
 
     .function {
-        padding: 70px 20px 40px;
+        padding: 70px 0 40px;
     }
 
     .function__content {
@@ -2793,6 +2958,11 @@ span:hover {
         margin-right: 20px;
     }
 
+    .feedback__content {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
     .feedback__items {
         max-width: 310px;
         padding: 5px 10px;
@@ -2814,10 +2984,15 @@ span:hover {
 
 
     .freeplan {
-        padding: 60px 40px;
+        padding: 60px 0;
     }
 
     .features__content {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
+    .freeplan__main {
         margin: 0 auto;
         max-width: 310px;
     }
@@ -2828,8 +3003,39 @@ span:hover {
 
     }
 
+    .freeplan__subtitle {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
+
+    .freeplan__title {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
+    .freeplan__checklist {
+        width: 230px;
+    }
+
+    .freeplan__checkbox {
+        max-width: 250px;
+    }
+
+    .freeplan__left {
+        margin: 0 auto;
+        max-width: 310px;
+        margin-bottom: 30px;
+    }
+
+
+    .freeplan__right {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+
     .payment {
-        padding: 40px 40px;
+        padding: 40px 0;
         background-image: none;
         padding-left: 20px;
     }
@@ -2867,13 +3073,19 @@ span:hover {
     }
 
     .question {
-        padding: 50px 40px;
+        padding: 50px 0;
     }
 
     .question__main {
         margin-left: 0;
         margin: 0 auto;
         max-width: 310px;
+    }
+
+    .question__top {
+        margin: 0 auto;
+        max-width: 300px;
+
     }
 
 
@@ -2891,8 +3103,18 @@ span:hover {
         margin-left: 10px;
     }
 
+    .features__content {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
     .footer__ul {
         margin-bottom: 50px;
+    }
+
+    .footer__li {
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .footer__list {
@@ -2915,11 +3137,11 @@ span:hover {
 
 
     .header {
-        padding: 60px 40px;
+        padding: 60px 0;
         position: relative;
     }
 
-    .header__content {
+    .header__container {
         margin: 0 auto;
         max-width: 300px;
     }
@@ -2940,14 +3162,19 @@ span:hover {
     }
 
     .button_one {
-        position:static;
+        position: static;
         left: 90%;
-       
+
     }
 
     .header__list {
         margin-right: 40px;
         justify-content: space-around;
+    }
+
+    .main {
+        position: relative;
+        padding: 40px 0 300px;
     }
 
     .main__content {
@@ -2957,6 +3184,33 @@ span:hover {
 
     .main video {
         max-width: 280px;
+        margin: 0 auto;
+    }
+
+
+    .main__phone {
+        position: absolute;
+        display: block;
+        max-width: 100%;
+        top: 75%;
+        left: 20%;
+        width: 240px;
+    }
+
+
+    .main__left {
+        max-width: 310px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .quality__content {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .jackpots__content {
+        max-width: 300px;
         margin: 0 auto;
     }
 
@@ -2976,6 +3230,11 @@ span:hover {
 
     }
 
+    .features__content {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
     .close {
         top: 305px;
         left: 50%;
@@ -2984,16 +3243,20 @@ span:hover {
     }
 
     .jackpots {
-        padding: 40px 50px;
+        padding: 40px 0;
     }
 
     .jackpots__icon {
         margin-left: 0;
     }
 
+    .function__content {
+        margin: 0 auto;
+        max-width: 300px;
+    }
 
     .core {
-        padding: 40px 30px 20px;
+        padding: 40px 0 20px;
     }
 
     .core__content {
@@ -3002,7 +3265,7 @@ span:hover {
     }
 
     .feedback {
-        padding: 40px 40px;
+        padding: 40px 0;
     }
 
     .feedback__items {
@@ -3030,20 +3293,15 @@ span:hover {
 
 
     .freeplan {
-        padding: 60px 20px;
+        padding: 60px 0;
     }
 
-    .features__content {
-        margin: 0 auto;
-        max-width: 300px;
-    }
 
 
 
     .payment {
-        padding: 10px 30px;
+        padding: 10px 0;
         background-image: none;
-        padding-left: 20px;
     }
 
 
@@ -3067,6 +3325,15 @@ span:hover {
         margin-left: 20px;
     }
 
+    .freeplan__content {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .freeplan__left {
+        margin: 0 auto;
+        max-width: 300px;
+    }
 
     .freeplan__button {
         margin: 0 auto;
@@ -3081,7 +3348,7 @@ span:hover {
     }
 
     .question {
-        padding: 30px 40px;
+        padding: 30px 0;
     }
 
     .question__content {
@@ -3099,9 +3366,14 @@ span:hover {
         max-width: 300px;
     }
 
+    .footer__content {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
     #up {
         display: none;
-        opacity: 0;
+
 
     }
 
@@ -3116,11 +3388,11 @@ span:hover {
 
 
     .header {
-        padding: 70px 40px;
+        padding: 70px 0;
         position: relative;
     }
 
-    .header__content {
+    .header__container {
         margin: 0 auto;
         max-width: 290px;
     }
@@ -3134,22 +3406,19 @@ span:hover {
         right: 80%
     }
 
-   z
-
     .header__all {
         display: flex;
-     align-items: center;
+        align-items: center;
         justify-content: space-around;
     }
 
     .button_one {
         position: static;
-        /* left: 70%;
-        right: 20% */
     }
 
     .main {
-        padding: 30px 30px;
+        padding: 30px 0 250px;
+        position: relative;
     }
 
     .main__content {
@@ -3184,6 +3453,14 @@ span:hover {
         z-index: 3;
     }
 
+    .main__phone {
+        position: absolute;
+        display: block;
+        max-width: 100%;
+        top: 75%;
+        left: 20%;
+        width: 220px;
+    }
 
     .main-text {
         max-width: 100%;
@@ -3232,7 +3509,7 @@ span:hover {
     }
 
     .jackpots {
-        padding: 40px 40px;
+        padding: 40px 0;
     }
 
     .jackpots__content {
@@ -3256,23 +3533,23 @@ span:hover {
     }
 
     .quality {
-        padding: 80px 50px 20px;
+        padding: 80px 0 20px;
     }
 
 
     .quality__content {
-        max-width: 310px;
+        max-width: 290px;
         margin: 0 auto;
     }
 
 
     .quality__bottom {
-        max-width: 310px;
+        max-width: 290px;
         margin: 0 auto;
     }
 
     .features {
-        padding: 40px 20px 20px;
+        padding: 40px 0 20px;
     }
 
     .features__bottom {
@@ -3288,7 +3565,7 @@ span:hover {
     }
 
     .core {
-        padding: 40px 20px 20px;
+        padding: 40px 0 20px;
     }
 
     .core__content {
@@ -3307,7 +3584,7 @@ span:hover {
     }
 
     .function {
-        padding: 70px 20px 40px;
+        padding: 70px 0 40px;
     }
 
     .function__content {
@@ -3334,13 +3611,20 @@ span:hover {
     }
 
     .feedback {
-        padding: 40px 20px;
+        padding: 40px 0;
     }
 
-    .feedback__content{
+    .feedback__content {
         max-width: 290px;
         margin: 0 auto;
-        
+
+    }
+
+    .feedback__items {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+        max-width: 290px;
+        padding: 5px 10px;
     }
 
     .feedback__details {
@@ -3348,36 +3632,36 @@ span:hover {
         justify-content: space-around;
     }
 
-    .feedback__bottom{
+    .feedback__bottom {
         max-width: 290px;
         margin: 0 auto;
-        
-    }
-    .feedback__items {
-        max-width: 290px;
-        padding: 5px 10px;
+
     }
 
     .feedback__info {
         display: flex;
         align-items: flex-start;
+        max-width: 290px;
+        margin: 0 auto;
     }
 
     .feedback__subtitle {
         font-weight: 700;
+        max-width: 290px;
+        margin: 0 auto;
     }
 
-.bx-viewport{
-    height: 350px;
-    width: 290px;
-    max-width: 100%;
-    
-}
+    .bx-viewport {
+        height: 350px;
+        width: 290px;
+        max-width: 100%;
 
-.bx-wrapper{
-    max-width: 290px;
-    margin: 0 auto;
-}
+    }
+
+    .bx-wrapper {
+        max-width: 290px;
+        margin: 0 auto;
+    }
 
     .feedback__photo {
         margin-bottom: 20px;
@@ -3388,10 +3672,15 @@ span:hover {
         margin-top: 0;
     }
 
+    .feedback__text {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+
     .payment {
-        padding: 10px 30px;
+        padding: 10px 0;
         background-image: none;
-        padding-left: 20px;
     }
 
     .payment__content {
@@ -3423,7 +3712,22 @@ span:hover {
     }
 
     .freeplan {
-        padding: 60px 40px;
+        padding: 60px 0;
+    }
+
+    .freeplan__subtitle {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .freeplan__title {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .freeplan__top {
+        max-width: 290px;
+        margin: 0 auto;
     }
 
     .features__content {
@@ -3450,6 +3754,20 @@ span:hover {
 
     }
 
+    .freeplan__menu {
+        margin-right: 30px;
+    }
+
+    .plan__text {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    .freeplan__checkbox {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
     .button-right {
         margin: 0 auto;
         margin-left: 0;
@@ -3466,7 +3784,7 @@ span:hover {
     }
 
     .question {
-        padding: 50px 40px;
+        padding: 50px 0;
     }
 
     .quality__content {
@@ -3506,7 +3824,7 @@ span:hover {
     }
 
     .footer {
-        padding: 50px 40px;
+        padding: 50px 0;
     }
 
     .footer__content {
