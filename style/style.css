@@ -156,6 +156,7 @@ body {
     padding: 28px 100px 206px;
     background-color: #1E3C72;
     background-image: url(..//img/header/pattern.png);
+    max-width: 100%;
     border-radius: none;
     border-bottom-right-radius: 15% 30%;
     position: relative;
@@ -168,6 +169,11 @@ body {
     flex-direction: row;
     position: relative;
     justify-content: space-between;
+}
+
+.main__right{
+    max-width: 642px;
+    margin: 0 auto;
 }
 
 .main__text {
@@ -1549,11 +1555,6 @@ body {
     margin: 0 14px;
 }
 
-.question_item_wrapper {
-    position: relative;
-    width: 20px;
-    height: 20px;
-}
 
 
 

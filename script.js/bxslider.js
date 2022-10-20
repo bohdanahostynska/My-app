@@ -4,6 +4,7 @@ const feedback = $(".feedback__list") .bxSlider ( {
     infiniteLoop:true,
     touchEnabled:true,
     hideControlOnEnd:false,
+    slideWidth:true,
 });
 
 $('.button--prev') .click((e)=>{
