@@ -8,8 +8,7 @@ body {
 
 .header {
     background-color: #1E3C72;
-    background-image: none;
-    /* background-image: url(..//img/header/pattern.png); */
+    background-image: url(..//img/header/pattern.png);
     border-radius: none;
     border-bottom-right-radius: 0;
     position: relative;
@@ -157,8 +156,7 @@ body {
     position: relative;
     padding: 28px 100px 206px;
     background-color: #1E3C72;
-    background-image: none;
-    /* background-image: url(..//img/header/pattern.png); */
+    background-image: url(..//img/header/pattern.png);
     max-width: 100%;
     border-radius: none;
     border-bottom-right-radius: 15% 30%;
@@ -796,8 +794,7 @@ body {
 .function {
     padding: 90px 0 156px;
     background-color: #1E3C72;
-    background-image: none;
-    /* background-image: url(..//img/header/pattern.png); */
+    background-image: url(..//img/header/pattern.png);
     border-radius: none;
 }
 
@@ -1896,8 +1893,7 @@ span:hover {
 .main {
     padding: 20px 80px;
     background-color: #1E3C72;
-    /* background-image: url(..//img/header/pattern.png); */
-    background-image: none;
+    background-image: url(..//img/header/pattern.png);
     max-width: 100%;
 }
 .main__content{
@@ -2319,7 +2315,7 @@ span:hover {
     }
     .header__content {
         margin: 0 auto;
-        max-width: 290px;
+        max-width: 430px;
     }
 
 
@@ -2342,9 +2338,23 @@ span:hover {
     
     }
 
+    .main{
+        padding: 30px 30px;
+    }
+
+    .main__content{
+        margin: 0 auto;
+        max-width: 430px;
+    }
+
     .main__title {
         font-size: 36px;
         line-height: 48px;
+        max-width: 400px;
+    }
+
+    .main__text{
+        max-width: 400px;
     }
 
 
@@ -2889,7 +2899,7 @@ span:hover {
 
     .header__content {
         margin: 0 auto;
-        max-width: 290px;
+        max-width: 300px;
     }
 
 
@@ -2916,6 +2926,11 @@ span:hover {
     .header__list {
         margin-right: 40px;  
         justify-content: space-around;
+    }
+
+    .main__content{
+        margin: 0 auto;
+        max-width: 300px;
     }
 
     .main video {
@@ -3111,15 +3126,18 @@ span:hover {
     .main {
         padding: 30px 30px;
     }
-
+    .main__content {
+        max-width: 290px;
+        margin: 0 auto;
+    }
     .main__title {
         font-size: 36px;
         line-height: 48px;
-        max-width: 290px;
+        max-width: 270px;
     }
 
     .main__text {
-        max-width: 290px;
+        max-width: 270px;
     }
 
     .main video {
@@ -3278,6 +3296,7 @@ span:hover {
 
     .function__subtext {
         max-width: 290px;
+        margin: 0 auto;
     }
 
     .function__image {
@@ -3438,7 +3457,14 @@ span:hover {
     .question__pretext {
         max-width: 250px;
     }
+    .footer {
+        padding: 50px 40px;
+    }
 
+    .footer__content {
+        max-width: 290px;
+        margin: 0 auto;
+    }
     .footer__list {
         display: flex;
         flex-direction: column;
