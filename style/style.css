@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: #1E3C72;
-    background-image: url(..//img/header/pattern.png);
+    /* background-image: url(..//img/header/pattern.png); */
     border-radius: none;
     border-bottom-right-radius: 0;
     position: relative;
@@ -155,7 +155,7 @@ body {
 .main {
     padding: 28px 100px 206px;
     background-color: #1E3C72;
-    background-image: url(..//img/header/pattern.png);
+    /* background-image: url(..//img/header/pattern.png); */
     max-width: 100%;
     border-radius: none;
     border-bottom-right-radius: 15% 30%;
@@ -544,7 +544,7 @@ body {
 
 .jackpots::before {
     content: '';
-    background-image: url(..//img/jackpots/pattern.png);
+    /* background-image: url(..//img/jackpots/pattern.png); */
     background-repeat: no-repeat;
     width: 50%;
     padding-bottom: 65%;
