@@ -24,7 +24,7 @@ body {
 .header__all {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header__content {
@@ -48,7 +48,8 @@ body {
 }
 
 .header__list {
-    margin-right: 40px;
+    margin-right: 40px;  
+    justify-content: space-around;
 }
 
 .logo {
@@ -1881,6 +1882,12 @@ span:hover {
         z-index: 3;
     }
 
+    .header.flex {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
     .check-wrapper {
         z-index: 9;
     }
@@ -2198,9 +2205,15 @@ span:hover {
         margin: 0 auto;
     }
 
-    .header__ul {
+
+    .header.flex {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    .header__list {
+        margin-right: 70px;  
+        justify-content: space-around;
     }
 
     .main__phone {
@@ -2294,15 +2307,36 @@ span:hover {
     .container {
         max-width: 430px;
     }
-
-    .header {
-        padding: 70px 70px;
-        position: static;
-    }
-
     .header__content {
         margin: 0 auto;
-        max-width: 430px;
+        max-width: 290px;
+    }
+
+
+    .header__lists {
+        margin-right: 60px;  
+        justify-content: space-around;
+        position: absolute;
+        left: 20%;
+        right:80%
+    }
+
+  
+    .header__all{
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    .button_one{
+        position: absolute;
+        left: 50%;
+        right:50%
+    }
+
+    .header.flex {
+        display: flex;
+        justify-content: space-around;
+    
     }
 
     .main__title {
@@ -2529,8 +2563,34 @@ span:hover {
 
 
     .header {
-        padding: 70px 70px;
-        position: static;
+        padding: 70px 40px;
+        position: relative;
+    }
+
+    .header__content {
+        margin: 0 auto;
+        max-width: 290px;
+    }
+
+
+    .header__lists {
+        margin-right: 60px;  
+        justify-content: space-around;
+        position: absolute;
+        left: 20%;
+        right:80%
+    }
+
+  
+    .header__all{
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    .button_one{
+        position: absolute;
+        left: 60%;
+        right:40%
     }
 
     .header__content {
@@ -2795,9 +2855,41 @@ span:hover {
         max-width: 300px;
     }
 
+
     .header {
         padding: 60px 40px;
+        position: relative;
+    }
 
+    .header__content {
+        margin: 0 auto;
+        max-width: 290px;
+    }
+
+
+    .header__lists {
+        margin-right: 60px;  
+        justify-content: space-around;
+        position: absolute;
+        left: 20%;
+        right:80%
+    }
+
+  
+    .header__all{
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    .button_one{
+        position: absolute;
+        left: 50%;
+        right:50%
+    }
+
+    .header__list {
+        margin-right: 40px;  
+        justify-content: space-around;
     }
 
     .main video {
@@ -2934,12 +3026,33 @@ span:hover {
 
     .header {
         padding: 70px 40px;
-        position: static;
+        position: relative;
     }
 
     .header__content {
         margin: 0 auto;
         max-width: 290px;
+    }
+
+
+    .header__lists {
+        margin-right: 60px;  
+        justify-content: space-around;
+        position: absolute;
+        left: 20%;
+        right:80%
+    }
+
+  
+    .header__all{
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    .button_one{
+        position: absolute;
+        left: 70%;
+        right:20%
     }
 
     .main {
