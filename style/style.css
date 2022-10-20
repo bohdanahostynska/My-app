@@ -2052,6 +2052,13 @@ span:hover {
         text-align: center;
         margin-bottom: 50px;
     }
+    
+    
+    .core__image {
+        margin-bottom: 30px;
+        margin-left: 0;
+
+    }
 
 
     .function {
@@ -2183,12 +2190,6 @@ span:hover {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-
-    #up {
-        right: 200px;
-
-    }
-
 }
 
 @media screen and (max-width:800px) {
@@ -2297,10 +2298,13 @@ span:hover {
         height: 400px;
     }
 
+    
     #up {
-        right: 130px;
+        opacity: 0;
+ 
+     }
 
-    }
+
 }
 
 @media screen and (max-width:550px) {
@@ -2326,13 +2330,6 @@ span:hover {
         margin-left: 40px;
         justify-content: space-around;
     }
-
-    /* .button_one{
-        position: absolute;
-        left: 50%;
-        right:50%
-    } */
-
     .header.flex {
         display: flex;
         justify-content: space-around;
@@ -2420,6 +2417,8 @@ span:hover {
 
     .core__image {
         margin-bottom: 30px;
+        margin-left: 0;
+
     }
 
     .jackpots__icon {
@@ -2547,12 +2546,11 @@ span:hover {
         grid-template-rows: repeat(2, 1fr);
     }
 
-
-
     #up {
-        right: 50px;
+        opacity: 0;
+ 
+     }
 
-    }
 
 }
 
@@ -2586,12 +2584,6 @@ span:hover {
         margin-left: 40px;
         justify-content: space-around;
     }
-
-    /* .button_one{
-        position: absolute;
-        left: 60%;
-        right:40%
-    } */
 
     .header__content {
         margin: 0 auto;
@@ -2689,6 +2681,7 @@ span:hover {
 
     .core__image {
         margin-bottom: 30px;
+        margin-left: 0;
 
     }
 
@@ -2847,6 +2840,10 @@ span:hover {
         flex-direction: column;
     }
 
+    #up {
+        opacity: 0;
+ 
+     }
 
 }
 
@@ -3014,6 +3011,11 @@ span:hover {
         margin: 0 auto;
         max-width: 300px;
     }
+    #up {
+        opacity: 0;
+ 
+     }
+
 
 }
 
@@ -3381,10 +3383,9 @@ span:hover {
         flex-direction: column;
     }
 
-
     #up {
-        right: 50px;
-
-    }
+        opacity: 0;
+ 
+     }
 
 }
