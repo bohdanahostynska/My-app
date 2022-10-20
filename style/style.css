@@ -1920,7 +1920,8 @@ span:hover {
 .main {
     padding: 20px 80px;
     background-color: #1E3C72;
-    background-image: url(..//img/header/pattern.png);
+    /* background-image: url(..//img/header/pattern.png); */
+    background-image: none;
     max-width: 100%;
 }
 .main__content{
