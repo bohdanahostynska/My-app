@@ -1911,6 +1911,18 @@ span:hover {
         border-bottom-right-radius: 0;
     }
 
+    
+.main {
+    padding: 20px 80px;
+    background-color: #1E3C72;
+    background-image: url(..//img/header/pattern.png);
+    max-width: 100%;
+}
+.main__content{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
     .main__right {
         align-items: center;
         justify-content: center;
@@ -1958,7 +1970,9 @@ span:hover {
 
     }
 
-
+.main__left{
+    margin-bottom: 40px;
+}
 
     .quality {
         padding: 80px 120px;
@@ -2300,6 +2314,7 @@ span:hover {
 
     
     #up {
+        display: none;
         opacity: 0;
  
      }
@@ -2545,12 +2560,12 @@ span:hover {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-
+ 
     #up {
+        display: none;
         opacity: 0;
  
      }
-
 
 }
 
@@ -2840,11 +2855,12 @@ span:hover {
         flex-direction: column;
     }
 
+   
     #up {
+        display: none;
         opacity: 0;
  
      }
-
 }
 
 @media screen and (max-width:360px) {
@@ -3011,7 +3027,9 @@ span:hover {
         margin: 0 auto;
         max-width: 300px;
     }
+    
     #up {
+        display: none;
         opacity: 0;
  
      }
