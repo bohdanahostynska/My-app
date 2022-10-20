@@ -2327,11 +2327,11 @@ span:hover {
         justify-content: space-around;
     }
 
-    .button_one{
+    /* .button_one{
         position: absolute;
         left: 50%;
         right:50%
-    }
+    } */
 
     .header.flex {
         display: flex;
@@ -2587,11 +2587,11 @@ span:hover {
         justify-content: space-around;
     }
 
-    .button_one{
+    /* .button_one{
         position: absolute;
         left: 60%;
         right:40%
-    }
+    } */
 
     .header__content {
         margin: 0 auto;
