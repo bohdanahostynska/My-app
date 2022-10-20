@@ -154,6 +154,7 @@ body {
 
 
 .main {
+    position: relative;
     padding: 28px 100px 206px;
     background-color: #1E3C72;
     background-image: none;
@@ -161,7 +162,7 @@ body {
     max-width: 100%;
     border-radius: none;
     border-bottom-right-radius: 15% 30%;
-    position: relative;
+    
 }
 
 .main__content {
@@ -455,7 +456,7 @@ body {
     }
 
     to {
-        left: 20px;
+        left: 10px;
         background-color: #ac9f9f;
     }
 }
@@ -541,13 +542,12 @@ body {
 .jackpots {
     padding: 0 0 180px;
     position: relative;
-    background-color: ;
-
 }
 
 .jackpots::before {
     content: '';
     background-image: url(..//img/jackpots/pattern.png);
+    max-width:100%;
     background-repeat: no-repeat;
     width: 50%;
     padding-bottom: 65%;
@@ -1178,8 +1178,7 @@ body {
 }
 
 .freeplan__subtitle:hover {
-    color: #EF9E48;
-
+    color:#EF9E48;
     transition: 300ms all;
 
 }
