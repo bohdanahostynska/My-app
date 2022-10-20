@@ -1921,12 +1921,12 @@ span:hover {
 .main__content{
     max-width: 750px;
     margin: 0 auto;
+    justify-content: center;
 }
 
     .main__right {
-        align-items: center;
-        justify-content: center;
         margin: 0 auto;
+        max-width: 750px;
     }
 
     .main__phone {
@@ -2925,6 +2925,10 @@ span:hover {
         z-index: 3;
     }
 
+    .jackpots{
+        padding: 40px 50px;
+    }
+
     .jackpots__icon {
         margin-left: 0;
     }
@@ -3016,6 +3020,15 @@ span:hover {
         margin: 0 auto;
         margin-left: 30px;
 
+    }
+
+    .question{
+        padding: 30px 40px;
+    }
+
+    .question__content{
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .question .flex {
@@ -3151,6 +3164,14 @@ span:hover {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 30px;
+    }
+    .jackpots{
+        padding: 40px 40px;
+    }
+
+    .jackpots__content{
+        max-width: 290px;
+        margin: 0 auto;
     }
 
     .jackpots .title {
