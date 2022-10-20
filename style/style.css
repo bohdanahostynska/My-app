@@ -415,8 +415,8 @@ body {
 .quality__grid {
     display: grid;
     gap: 100px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-bottom: 199px;
     margin: 0 auto;
 }
@@ -432,34 +432,11 @@ body {
     margin: 0 auto;
 }
 
-.quality__image {
-    position: relative;
-    animation-name: image;
-    animation-duration: 5s;
-    animation-delay: 10s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-direction: alternate-reverse;
-}
-
-.quality__image:hover {
-    animation-play-state: paused;
+.quality img:hover {
+    transform: scale(1.2);
 }
 
 
-@keyframes image {
-
-    from {
-        left: 0;
-        background-color: #e4ecf0;
-
-    }
-
-    to {
-        left: 20px;
-        background-color: #ac9f9f;
-    }
-}
 
 .subtitle {
     font-weight: 700;
@@ -542,13 +519,12 @@ body {
 .jackpots {
     padding: 0 0 180px;
     position: relative;
-    background-color: ;
-
 }
 
 .jackpots::before {
     content: '';
     background-image: url(..//img/jackpots/pattern.png);
+    max-width:100%;
     background-repeat: no-repeat;
     width: 50%;
     padding-bottom: 65%;
@@ -813,9 +789,6 @@ body {
     animation-direction: alternate-reverse;
 }
 
-.quality__image:hover {
-    animation-play-state: paused;
-}
 
 .function {
     padding: 90px 0 156px;
@@ -1179,8 +1152,7 @@ body {
 }
 
 .freeplan__subtitle:hover {
-    color: #EF9E48;
-
+    color:#EF9E48;
     transition: 300ms all;
 
 }
@@ -2410,10 +2382,9 @@ span:hover {
     }
 
     .quality__content {
+        max-width: 430px;
         margin: 0 auto;
-        max-width: 300px;
     }
-
     .quality__bottom {
         margin: 0 auto;
         max-width: 300px;
@@ -2520,10 +2491,7 @@ span:hover {
         padding: 80px 70px 20px;
     }
 
-    .quality__content {
-        max-width: 430px;
-        margin: 0 auto;
-    }
+  
 
     .question__title {
         margin-top: 40px;
