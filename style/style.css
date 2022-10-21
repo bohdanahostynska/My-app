@@ -102,7 +102,7 @@ body {
     line-height: 33px;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white;
     margin-right: 5px;
     text-decoration: none;
 }
@@ -1648,6 +1648,11 @@ span:hover {
         margin-top: 40px;
 
     }
+
+    .header__link {
+        color: black; 
+    }
+    
 
 .main video { 
     max-width: 600px;
