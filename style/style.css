@@ -2466,6 +2466,14 @@ span:hover {
         max-width: 250px;
     }
 
+    .freeplan__button{
+        margin-left: 30px;
+    }
+
+    .freeplan__right{
+        padding: 20px 30px 30px;
+    }
+
     .core__content {
         max-width: 500px;
         margin: 0 auto;
@@ -2535,6 +2543,11 @@ span:hover {
     .freeplan__content {
         margin: 0 auto;
         max-width: 500px;
+    }
+
+
+    .button-right{
+        margin-left: 55px;
     }
 
     .footer__content {
@@ -2805,15 +2818,41 @@ span:hover {
     .freeplan__button {
         max-width: 170px;
         margin: 0 auto;
+        margin-left: 35px;
     }
 
     .freeplan__checklist {
         width: 230px;
+        margin: 0 auto;
+    }
+    
+    .button-right{
+        margin-left: 50px;
+    }
+
+    .freeplan__pretitle{
+        max-width: 227px;
     }
 
     .freeplan__checkbox {
         max-width: 250px;
     }
+
+.freeplan__left{    
+    margin: 0 auto;
+    max-width: 430px;
+    box-sizing: border-box;
+    padding: 70px 40px 40px;
+    margin-bottom: 40px;
+}
+
+.freeplan__right{    
+    margin: 0 auto;
+    max-width: 430px;
+    box-sizing: border-box;
+    padding: 70px 20px 40px;
+}
+
 
     .question {
         padding: 80px 0 20px;
@@ -2847,12 +2886,8 @@ span:hover {
     .freeplan__main {
         text-align: start;
 
+    
     }
-
-    .freeplan__button {
-        margin-left: 0;
-    }
-
 
 
     .footer {
@@ -3109,7 +3144,8 @@ span:hover {
 
     .freeplan__button {
         margin: 0 auto;
-        margin-left: 70px;
+        max-width: 150px;
+        margin-left: 40px;
 
     }
 
@@ -3467,7 +3503,12 @@ span:hover {
 
     .button-right {
         margin: 0 auto;
-        margin-left: 30px;
+        max-width: 150px;
+
+    }
+
+    .button-right{
+     margin-left: 45px;
 
     }
 
@@ -3871,7 +3912,7 @@ span:hover {
 
     .freeplan__button {
         margin: 0 auto;
-        margin-left: 0;
+        max-height: 150px;
 
     }
 
@@ -3879,6 +3920,10 @@ span:hover {
         margin: 0 auto;
         max-width: 250px;
 
+    }
+
+    .button-right{
+        margin-left: 30px;
     }
 
     .freeplan__menu {
@@ -3895,11 +3940,6 @@ span:hover {
         margin: 0 auto;
     }
 
-    .button-right {
-        margin: 0 auto;
-        margin-left: 0;
-
-    }
 
     .free__top {
         display: flex;
