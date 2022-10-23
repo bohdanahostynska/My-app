@@ -2927,6 +2927,12 @@ span:hover {
         margin: 0 auto;
     }
 
+    .quality__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+    }
     .jackpots__icon {
         margin-left: 0;
     }
@@ -3582,7 +3588,6 @@ span:hover {
         grid-template-rows: repeat(3, 1fr);
         gap: 30px;
     }
-
 
     .quality__bottom {
         max-width: 290px;
