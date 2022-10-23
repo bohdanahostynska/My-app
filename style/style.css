@@ -1712,6 +1712,30 @@ span:hover {
 
     }
 
+    .wrapper__check:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    
+      .wrapper__check:nth-child(3) {
+        bottom: 0;
+    
+      }
+    
+      .open .wrapper__check:nth-child(2) {
+        transform: translateX(50%);
+        opacity: 0;
+        visibility: hidden;
+      }
+    
+      .open .wrapper__check:nth-child(1) {
+        transform: translateY(13px) rotate(45deg);
+      }
+    
+      .open .wrapper__check:nth-child(3) {
+        transform: translateY(-13px) rotate(-45deg);
+      }
+
     .header_checkbox:checked~.header__all {
         display: block;
         position: fixed;
@@ -1838,12 +1862,12 @@ span:hover {
 
     }
 
+   
+
     .button_one {
-        display: block;
-        text-align: start;
+        margin: 0 auto;
+        display: inline-block;
     }
-
-
     .main__content {
         display: flex;
         flex-direction: row;
@@ -1957,8 +1981,10 @@ span:hover {
     }
 
     .button_one {
-        display: block;
-        text-align: start;
+        /* display: block;
+        text-align: start; */
+        margin: 0 auto;
+        display: inline-block;
     }
 
 
@@ -2334,6 +2360,17 @@ span:hover {
         text-align: start;
     }
 
+    /* .button_one {
+        display: block;
+        text-align: start;
+    } */
+
+    .button_one {
+        /* display: block;
+        text-align: start; */
+        margin: 0 auto;
+        display: inline-block;
+    }
 
     .header.flex {
         display: flex;
@@ -2533,11 +2570,16 @@ span:hover {
         max-width: 300px;
     }
 
-
+/* 
     .button_one {
         background: none;
         display: block;
         max-width: 150px;
+    } */
+
+    .button_one {
+        margin: 0 auto;
+        display: inline-block;
     }
 
     .header__li {
@@ -2862,12 +2904,18 @@ span:hover {
         margin: 0 auto;
         max-width: 310px;
     }
-
+/* 
     .button_one {
         background: none;
         display: block;
         margin-right: 20px;
         text-align: start;
+    } */
+
+    
+    .button_one {
+        margin: 0 auto;
+        display: inline-block;
     }
 
     .main {
@@ -3214,12 +3262,19 @@ span:hover {
     }
 
 
-    .button_one {
+    /* .button_one {
         background: none;
         display: block;
         margin-right: 20px;
         text-align: start;
+    } */
+
+    
+    .button_one {
+        margin: 0 auto;
+        display: inline-block;
     }
+
 
     .header__all {
         margin-left: 0;
@@ -3471,6 +3526,11 @@ span:hover {
         max-width: 310px;
     }
 
+
+    .button_one {
+        margin: 0 auto;
+        display: inline-block;
+    }
 
 
     .main {
