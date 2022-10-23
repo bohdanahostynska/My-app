@@ -17,8 +17,11 @@ body {
 
 .header__container {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
     max-width: 1140px;
+    justify-content: space-around;
 
 }
 
@@ -413,35 +416,6 @@ body {
     width: 100%;
     max-width: 110px;
     margin: 0 auto;
-}
-
-.quality__image {
-    position: relative;
-    animation-name: image;
-    animation-duration: 5s;
-    animation-delay: 10s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-direction: alternate-reverse;
-}
-
-.quality__image:hover {
-    animation-play-state: paused;
-}
-
-
-@keyframes image {
-
-    from {
-        left: 0;
-        background-color: #e4ecf0;
-
-    }
-
-    to {
-        left: 20px;
-        background-color: #ac9f9f;
-    }
 }
 
 .quality img:hover {
@@ -845,7 +819,7 @@ body {
     font-size: 36px;
     line-height: 55px;
     color: #FFFFFF;
-    margin-bottom: 80px;
+    margin-bottom: 145px;
 }
 
 .function__title:hover {
@@ -1641,37 +1615,11 @@ span:hover {
     color: #1F3E76;
 }
 
-.header__menu{
-    position: fixed;
-    cursor: pointer;
-    width: 40px;
-    height: 30px;
-}
-
-/* .wrapper__check {
+.wrapper__check {
     width: 30px;
     height: 3px;
     background-color: black;
-} */
-
-.wrapper__check{
-    position: absolute;
-    transform-origin: center;
-    width: 100%;
-    height: 4px;
-    transition: 0.2s;
-    background: black;
 }
-
-
-.wrapper__check:nth-child(2) {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .wrapper__check:nth-child(3) {
-    bottom: 0;
-  }
 
 .wrapper__check:not(:last-of-type) {
     margin-bottom: 4px;
@@ -1694,6 +1642,7 @@ span:hover {
 
     .header__all {
         display: none;
+    
     }
 
     .header__menu {
@@ -1759,7 +1708,7 @@ span:hover {
     }
 
     .header_checkbox:checked~.check-wrapper>.wrapper__check:last-of-type {
-        transform: rotate(-45deg) translate(9px, -8px);
+        transform: rotate(-45deg) translate(2px, 1px);
 
     }
 
@@ -1877,7 +1826,12 @@ span:hover {
     .header__container {
         margin: 0 auto;
         max-width: 1040px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
+
+
 
     .header {
         padding: 28px 0 106px;
@@ -1957,6 +1911,9 @@ span:hover {
     .header__container {
         max-width: 750px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
 
@@ -1975,6 +1932,7 @@ span:hover {
     .header.flex {
         display: flex;
         justify-content: space-around;
+
 
     }
 
