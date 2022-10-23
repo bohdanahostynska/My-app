@@ -415,6 +415,35 @@ body {
     margin: 0 auto;
 }
 
+.quality__image {
+    position: relative;
+    animation-name: image;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
+
+.quality__image:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes image {
+
+    from {
+        left: 0;
+        background-color: #e4ecf0;
+
+    }
+
+    to {
+        left: 20px;
+        background-color: #ac9f9f;
+    }
+}
+
 .quality img:hover {
     transform: scale(1.2);
 }
@@ -816,7 +845,7 @@ body {
     font-size: 36px;
     line-height: 55px;
     color: #FFFFFF;
-    margin-bottom: 145px;
+    margin-bottom: 80px;
 }
 
 .function__title:hover {
@@ -3003,7 +3032,7 @@ span:hover {
     }
 
     .function__image {
-        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     .feedback__content {
