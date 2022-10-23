@@ -1923,6 +1923,13 @@ span:hover {
 
     }
 
+    .header__lists {
+        display:inline-block;
+        flex: none;
+        margin:0 auto;
+        max-width: 300px;
+    }
+
     .check-wrapper {
         z-index: 9;
     }
@@ -2321,6 +2328,13 @@ span:hover {
 
     }
 
+    .header__lists {
+        display:inline-block;
+        flex: none;
+        margin:0 auto;
+        max-width: 300px;
+    }
+
     .close {
         top: 27%;
         left: 46%;
@@ -2500,23 +2514,21 @@ span:hover {
 
 
     .header__lists {
-        margin-right: 60px;
-        justify-content: space-around;
-        position: absolute;
-        left: 20%;
-        right: 80%
+        display:inline-block;
+        flex: none;
+        margin:0 auto;
+        max-width: 300px;
     }
 
 
-    .header__all {
-        margin-left: 0;
-        justify-content: space-around;
+    .button_one {
+        background: none;
+        display: block;
+        max-width: 150px;
     }
 
-    .header.flex {
-        display: flex;
-        justify-content: space-around;
-
+    .header__li{
+        align-items: center;
     }
 
     .main {
@@ -3194,6 +3206,13 @@ span:hover {
         justify-content: space-around;
     }
 
+    .quality__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+    }
+
 
     .header__list {
         margin-right: 40px;
@@ -3327,8 +3346,6 @@ span:hover {
     .freeplan {
         padding: 60px 0;
     }
-
-
 
 
     .payment {
@@ -3556,6 +3573,14 @@ span:hover {
     .quality__content {
         max-width: 290px;
         margin: 0 auto;
+
+    }
+
+    .quality__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
     }
 
 
