@@ -1811,6 +1811,73 @@ span:hover {
 
 }
 
+.modal-overlay {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.modal {
+    max-width: 550px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.modal__email,.modal__name{
+    max-width: 300px;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    background-color: #1E3C72;
+    border-radius: 8px;
+    border-color: none;
+}
+.modal__name:hover{
+    background-color: #74839e;
+    transition: 200;
+}
+
+
+.modal__email:hover{
+    background-color: #74839e;
+    transition: 200;
+}
+.modal__button{
+    width:150px;
+    height:40px;
+    margin: 0 auto;
+    background-color: #e78d2d;
+    border-radius: 8px;
+    color: white;
+}
+
+.modal__button:hover{
+    background-color: #d1a475;
+    transition: 200;
+
+}
 
 #up {
     display: block;
