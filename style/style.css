@@ -2048,8 +2048,6 @@ span:hover {
     }
 
     .button_one {
-        /* display: block;
-        text-align: start; */
         margin: 0 auto;
         display: inline-block;
     }

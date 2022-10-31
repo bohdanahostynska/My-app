@@ -835,10 +835,25 @@
             </div>
         </div>
     </footer>
+    <form method="POST">
+        <div>
+            <input placeholder="Your name" type="text" class="text" id="name">
+            <p id='error-name'class="error-message">
+            </p>
+        </div>
+        <div>
+            <input placeholder="Your email" type="text" class="text" id="email">
+            <p id='error-email'class="error-message">
+            </p>
+        </div>
+        <button id="button" class="submit">
+            Send info
+        </button>
+    </form>
     <div class="modal-overlay">
         <div class="modal">
+                <input class="modal__name" type="name" placeholder="Enter your name">
                 <input class="modal__email" type="email" placeholder="Enter your email">
-                <input class="modal__name" type="email" placeholder="Enter your name">
                 <button class="modal__button">
                    Submit
                 </button>
